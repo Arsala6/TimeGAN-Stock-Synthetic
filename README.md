@@ -7,13 +7,21 @@ This repository contains implementation of a TimeGAN model for generating synthe
 - Implemented a **TimeGAN model** to generate synthetic stock data for multiple companies.  
 - Notebook written in **Python** using **TensorFlow, pandas, and NumPy**.  
 - Generated synthetic data is saved in CSV files for further analysis.
-
+  
 ## Files in the Repository
 
-- **`TimeGan.ipynb`** – Main Colab notebook with data preprocessing, model training, and synthetic data generation.  
+- **`TimeGan.ipynb`** – Main Colab notebook with data preprocessing, model training, and synthetic data generation.
+- **`Dataset`** – all_stocks_5yr.csv.
 - **`synthetic_timegan_data.csv`** – Sample synthetic stock data.  
 - **`synthetic_timegan_data_named.csv`** – Synthetic data with company names included.  
 - **`README.md`** – This file describing the project.
+  
+## Dataset
+
+The project uses the `all_stocks_5yr.csv` dataset, which contains historical stock prices for multiple companies over 5 years.  
+- **Source:** Kaggle ([link to dataset](https://www.kaggle.com/datasets/szrlee/stock-time-series-5yr))  
+- **Columns:** `date`, `open`, `high`, `low`, `close`, `volume`, `Name`  
+- **Usage:** This dataset is used for training the TimeGAN model to generate synthetic stock price sequences.
 
 ## How to Use
 
