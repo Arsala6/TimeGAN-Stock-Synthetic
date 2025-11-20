@@ -17,13 +17,16 @@ This repository contains implementation of a TimeGAN model for generating synthe
 
 ## How to Use
 
-1. Open **`TimeGan.ipynb`** in Google Colab.  
-2. Mount your Google Drive to save outputs.  
-3. Run all cells in order to:  
+1. Open **`TimeGan.ipynb`** in Google Colab.
+2. Make sure to select **GPU runtime** for faster training:  
+   - Go to `Runtime` → `Change runtime type` → Select `T4 GPU` → Save.   
+3. Mount your Google Drive to save outputs.  
+4. Run all cells in order to:  
    - Load and preprocess stock data  
    - Train the TimeGAN model  
-   - Generate synthetic stock data  
-4. Download the generated CSV files from Drive or use them directly in Colab for analysis.
+   - Generate synthetic stock data
+   - make sure all the libraries is installed
+5. Download the generated CSV files from Drive or use them directly in Colab for analysis.
 
 ## Evaluation Metrics
 
